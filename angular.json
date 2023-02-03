@@ -53,7 +53,9 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ang2-conduit:build"
+            "browserTarget": "ang2-conduit:build",
+             "host": "0.0.0.0.",
+             "port": 4250
           },
           "configurations": {
             "production": {
